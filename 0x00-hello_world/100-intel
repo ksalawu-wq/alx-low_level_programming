@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'gcc 100-main.c -S $CFILE' > main.s
+gcc -S $CFILE > $(echo $CFILE|cut -d"." -f1 ).s
