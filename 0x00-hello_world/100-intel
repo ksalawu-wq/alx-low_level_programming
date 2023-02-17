@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'gcc -s main $CFILE' > main.s
+echo 'gcc 100-main.c -S $CFILE' > main.s
