@@ -2,7 +2,8 @@
 #include <time.h>
 /* more headers goes there */
 /*
- * main - prints an if else statement for a positive or a negative integer
+ * main - entry point
+ * Description: prints an if else statement for a positive or a negative integer.
  * Return: returns 0
  */
 /* betty style doc for function main goes there */
@@ -20,7 +21,7 @@ int main(void)
 	else if (n == 0)
 	{
 		printf("%d is zero\n", n);
-	else
+	else if (n > 0)
 	{
 		printf("%d is positive\n", &n);
 	}
