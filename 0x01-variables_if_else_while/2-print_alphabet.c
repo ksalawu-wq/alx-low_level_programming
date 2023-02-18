@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 /**
  * main - entry point
  * Description: prints alphabets in lowercase
@@ -10,9 +10,9 @@ int main(void)
 {
 	int al;
 
-	for (ch = 'a', ch <= 'z', ch++)
+	for (al = 'a', al <= 'z', al++)
 	{
-		puchar(ch);
+		puchar(al);
 	}
 	putchar('\n');
 	return (0);
