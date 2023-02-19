@@ -1,18 +1,23 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 1 (error)
+ * main - prints to string
+ * Description: Prints "and that piece of art is useful.." without puts
+ * Return: 1
  */
+
 int main(void)
 {
-    char message[] =
-        "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-
-    /* Use write() to print the message to the standard error */
-    write(2, message, sizeof(message) - 1);
-
-    /* Return 1 to indicate an error occurred */
-    return (1);
+char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+long l = 59;
+long fd = 1;
+long syscall = 1;
+long ret = 0;
+__asm__ ("syscall"
+: "=a" (ret)
+: "a" (syscall),
+"D" (fd),
+"S" (s),
+"d" (l));
+return (1);
 }
