@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: to use the function print_alphabet,
- * to print letters followed by a new line
+ * print_alphabet - Entry point
+ * print_alphabet - to print letters followed by a new line
  * Return: Always 0.
  */
 void print_alphabet(void)
