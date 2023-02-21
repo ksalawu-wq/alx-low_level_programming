@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: To print the program _putchar
@@ -6,7 +7,15 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char str[] = "_putchar"
+	int i = 0;
 
+	while (str[i] != '\0')
+	{
+		char a = str[i];
+
+		putchar(a);
+		i++;
+	}
 	return (0);
 }
