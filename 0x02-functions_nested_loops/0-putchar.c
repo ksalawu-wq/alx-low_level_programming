@@ -14,7 +14,7 @@ int main(void)
 	{
 		char a = str[i];
 
-		putchar(a);
+		_putchar(a);
 		i++;
 	}
 	return (0);
