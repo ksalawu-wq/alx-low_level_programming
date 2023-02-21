@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
- * _islower - checks for lowercase letters
+ * main - Entry point
+ * use _islower function to check for lowercase letters
  * Return: Always 0.
  */
 int main(void)
