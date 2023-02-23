@@ -2,14 +2,14 @@
 /**
  * _isupper - checks uppercase
  * @c: parameter to be checked
- * Return: 1 if uppercase
+ * Return: 1 if uppercase 0 if not
  */
 
 int _isupper(int c)
 {
-	while (c = 'A')
+	if (c >= 65 && c <= 90)
 	{
-		_putchar(c);
-	}
 	return (1);
+	}
+	return (0);
 }
