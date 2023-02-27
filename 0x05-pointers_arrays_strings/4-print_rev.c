@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+* print_rev - imprime en reversa
+* @s: variable
+* Return: 0
+*/
+
 void print_rev(char *s)
 {
 	int a = 0;
