@@ -1,2 +1,1 @@
-Write a function that concatenates two strings.
-Write a function that concatenates two strings.
+A function that concatenates two strings.
