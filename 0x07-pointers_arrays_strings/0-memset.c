@@ -1,6 +1,7 @@
 #include "main.h"
+
 /*
-* _memset - Entry point
+* _memset - entry point
 * @s: pointer variable
 * @b: pointer variable
 * @n: number of bytes
@@ -12,5 +13,6 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i <= n; i++)
 	s[i] = b;
+	s--;
 return (s);
 }
