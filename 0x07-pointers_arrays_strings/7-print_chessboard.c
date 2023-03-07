@@ -3,7 +3,6 @@
 /**
 * print_chessboard - prints chessboard
 * @a: array
-*
 * Return: 0
 */
 
