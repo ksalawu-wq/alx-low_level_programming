@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+* _strlen_recursion - Entry point
+* @s; input
+*/
+
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
