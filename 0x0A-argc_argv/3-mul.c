@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-	printf("more than two arguments");
+	printf("Error\n");
 	return (1);
 	}
 	a = atoi(argv[1]);
