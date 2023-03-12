@@ -8,7 +8,7 @@
 * Return: 0
 */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 int a, cents, b, result;
 	int coin[5] = {25, 10, 5, 2, 1};
