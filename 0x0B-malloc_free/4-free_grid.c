@@ -2,7 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/**
+* free_grid - frees space
+* @grid: input
+* @height: input
+*/
 
 void free_grid(int **grid, int height)
 {
